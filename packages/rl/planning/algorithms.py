@@ -6,8 +6,8 @@ from numbers import Integral, Real
 
 import numpy as np
 
-from DeepRL.planning.models import PlanningResult, PolicyArray, ValueArray
-from DeepRL.planning.types import Transition, TransitionModel
+from .models import PlanningResult, PolicyArray, ValueArray
+from .types import Transition, TransitionModel
 
 _DEFAULT_TOLERANCE = 1e-10
 _DEFAULT_MAX_ITERATIONS = 100_000

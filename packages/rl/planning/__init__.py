@@ -1,13 +1,13 @@
 """Dynamic-programming algorithms for finite Markov decision processes."""
 
-from DeepRL.planning.algorithms import (
+from .algorithms import (
     policy_evaluation,
     policy_improvement,
     policy_iteration,
     value_iteration,
 )
-from DeepRL.planning.models import PlanningResult, PolicyArray, ValueArray
-from DeepRL.planning.types import Action, State, Transition, TransitionModel
+from .models import PlanningResult, PolicyArray, ValueArray
+from .types import Action, State, Transition, TransitionModel
 
 __all__ = [
     "Action",
