@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rl-planning-algorithms"
+version = "0.1.0"
+description = "Typed dynamic-programming algorithms for finite MDPs"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26",
+]
+
+[tool.setuptools.packages.find]
+include = ["rl*"]
